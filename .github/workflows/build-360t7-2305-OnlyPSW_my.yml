@@ -7,7 +7,7 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 #
-name: 360t7-openwrt-23.05-OnlyPSW1&2
+name: 360t7-openwrt-23.05-OnlyPSW1_my
 
 on:
   repository_dispatch:
