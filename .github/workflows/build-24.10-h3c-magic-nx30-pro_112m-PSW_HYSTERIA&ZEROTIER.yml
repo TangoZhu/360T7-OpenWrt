@@ -7,7 +7,7 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 #
-name: h3c-magic-nx30-pro-openwrt-24.10-Nikki&PSW
+name: h3c-magic-nx30-pro_112m-openwrt-24.10-PSW_HYSTERIA&ZEROTIER
 
 on:
   repository_dispatch:
@@ -19,10 +19,10 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/redfrog999/immortalwrt
+  REPO_URL: https://github.com/TangoZhu/immortalwrt
   REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config.h3c-magic-nx30-pro-24.10-PSW&Nikki
+  CONFIG_FILE: .config.h3c-magic-nx30-pro_112m-24.10-PSW_HYSTERIA&ZEROTIER
   DIY_P1_SH: diy-part1-1.sh
   DIY_P2_SH: diy-part2-2.sh
   PACKAGES_SH: Packages.sh
