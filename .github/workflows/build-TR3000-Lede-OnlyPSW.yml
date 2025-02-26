@@ -22,7 +22,7 @@ env:
   REPO_URL: https://github.com/redfrog999/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE:  .config.TR3000-Lede-OnlyPSW
+  CONFIG_FILE:  config.TR3000-Lede-OnlyPSW
   DIY_P1_SH: diy-part1-1.sh
   DIY_P2_SH: diy-part2-2.sh
   PACKAGES_SH: Packages.sh

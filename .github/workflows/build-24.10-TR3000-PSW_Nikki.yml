@@ -7,7 +7,7 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 #
-name: TR3000-openwrt-23.05-Mihomo&PSW
+name: TR3000-openwrt-24.10-Nikki_PSW
 
 on:
   repository_dispatch:
@@ -20,9 +20,9 @@ on:
 
 env:
   REPO_URL: https://github.com/redfrog999/immortalwrt
-  REPO_BRANCH: openwrt-23.05
+  REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config.TR3000-23.05-PSW&Mihomo
+  CONFIG_FILE: config.TR3000-24.10-PSW_Nikki
   DIY_P1_SH: diy-part1-1.sh
   DIY_P2_SH: diy-part2-2.sh
   PACKAGES_SH: Packages.sh
