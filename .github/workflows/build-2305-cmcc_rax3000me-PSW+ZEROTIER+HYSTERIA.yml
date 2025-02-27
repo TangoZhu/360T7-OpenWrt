@@ -7,7 +7,7 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 #
-name: cmcc_rax3000me_23.05-PSW+ZEROTIER+HYSTERIA
+name: cmcc_rax3000me-23.05-PSW+ZEROTIER+HYSTERIA
 
 on:
   repository_dispatch:
@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-23.05
   REPO_BRANCH: openwrt-23.05
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: config.cmcc_rax3000me_23.05-PSW+ZEROTIER+HYSTERIA
+  CONFIG_FILE: config.2305-cmcc_rax3000me-PSW+ZEROTIER+HYSTERIA
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   PACKAGES_SH: Packages.sh
