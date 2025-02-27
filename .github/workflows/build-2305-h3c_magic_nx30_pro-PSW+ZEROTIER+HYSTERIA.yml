@@ -7,7 +7,7 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 #
-name: 2305-cmcc_rax3000me-PSW+ZEROTIER+HYSTERIA
+name: 305-h3c_magic_nx30_pro-PSW+ZEROTIER+HYSTERIA
 
 on:
   repository_dispatch:
