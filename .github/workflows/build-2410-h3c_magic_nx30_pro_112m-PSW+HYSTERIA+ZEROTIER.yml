@@ -7,7 +7,7 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 #
-name: h3c-magic-nx30-pro_112m-openwrt-24.10-PSW_HYSTERIA_ZEROTIER
+name: 2410-h3c_magic_nx30_magic_pro_112m-PSW+HYSTERIA+ZEROTIER
 
 on:
   repository_dispatch:
